@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import MemoOne from './useMemo/memo01';
+import MemoTwo from './useMemo/memo02';
+import CBone from './useCallback/Callback01';
+import CBtwo from './useCallback/Callback02';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MemoOne /> */}
+      {/* <MemoTwo /> */}
+      {/* <CBone /> */}
+      <CBtwo />
     </div>
   );
 }
