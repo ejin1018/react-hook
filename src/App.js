@@ -3,6 +3,7 @@ import MemoOne from './useMemo/memo01';
 import MemoTwo from './useMemo/memo02';
 import CBone from './useCallback/Callback01';
 import CBtwo from './useCallback/Callback02';
+import CHone from './customHook/custom01';
 import './App.css';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       {/* <MemoOne /> */}
       {/* <MemoTwo /> */}
       {/* <CBone /> */}
-      <CBtwo />
+      {/* <CBtwo /> */}
+      <CHone />
     </div>
   );
 }
