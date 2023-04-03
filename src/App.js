@@ -5,6 +5,7 @@ import CBone from './useCallback/Callback01';
 import CBtwo from './useCallback/Callback02';
 import CHone from './customHook/custom01';
 import './App.css';
+import {CHtwo,CHthree} from './customHook/custom02';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       {/* <MemoTwo /> */}
       {/* <CBone /> */}
       {/* <CBtwo /> */}
-      <CHone />
+      {/* <CHone /> */}
+      <CHtwo />
+      <CHthree />
     </div>
   );
 }
